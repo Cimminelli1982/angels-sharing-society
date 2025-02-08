@@ -100,16 +100,17 @@
 <section class="py-16 bg-white">
     <div class="container mx-auto px-6 text-center">
         <h2 class="text-3xl font-bold text-gray-900 mb-8">See How It Works</h2>
-        <video 
-            width="315" 
-            height="560" 
-            autoplay 
-            muted 
-            loop 
-            playsinline 
-            controls>
-            <source src="https://drive.google.com/uc?export=download&id=1jJPax3K3ilRlwP4sw86Ahw-kl2lZYC2Q" type="video/mp4">
-        </video>
+        <div class="max-w-sm mx-auto">
+            <div class="relative aspect-[9/16] w-full bg-gray-100 rounded-xl overflow-hidden shadow-lg mb-8">
+                <iframe 
+                    src="https://player.vimeo.com/video/YOUR_VIDEO_ID?autoplay=1&loop=1&muted=1&background=1&quality=1080p" 
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
         <p class="text-xl text-gray-600 mt-8">Quality dealflow. No more. No less.</p>
     </div>
 </section>
